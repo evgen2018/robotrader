@@ -1,0 +1,18 @@
+.press img {
+    max-width: 220px;
+    margin-top: 30px;
+    width: 100%;
+}
+@media 	only screen and (min-device-pixel-ratio: 2) and (orientation: portrait),
+only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait),
+only screen and (min-resolution: 2dppx) and (orientation: portrait),
+
+only screen and (min-device-pixel-ratio: 2) and (max-height:1200px) and (orientation: landscape),
+only screen and (-webkit-min-device-pixel-ratio: 2) and (max-height:1200px) and (orientation: landscape),
+only screen and (min-resolution: 2dppx) and (max-height:1200px) and (orientation: landscape){
+
+    .anticlicker{
+        display:none;
+    }
+
+}

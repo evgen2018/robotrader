@@ -1,0 +1,18 @@
+#signin_email, #introForm #introFormEmailFocus {
+    text-align: center; 
+    padding: 6px 12px;
+    font-size: 1.2em;
+}
+@media (max-width: 479px) {
+    body section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .videoWrapper {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .formWrapper {
+        padding: 15px;
+    }
+}

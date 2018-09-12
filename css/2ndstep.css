@@ -1,0 +1,86 @@
+.newsBanner .lead span.fa.fa-quote-right, .newsBanner .lead span.fa.fa-quote-left {
+    display: block;
+    font-size: 1.4em;
+    color: #1078a7;
+}
+
+.newsBanner .lead span.fa.fa-quote-left {
+    text-align: right;
+}
+
+@media screen and (max-width:767px) {
+    .newsBanner .lead span.fa.fa-quote-right {
+        margin-top:20px;
+    }
+}
+
+.formWrapper p.text-left {
+    padding: 10px;
+    border: 1px solid #2daae1;
+    border-radius: 4px;
+    background: white;
+    font-size: 0.9em;
+}
+
+.formWrapper p.text-left strong {
+    color:red;
+    font-size: 1.1em;
+}
+
+@media (max-width: 479px) {
+.mainWrapper .logoImage {
+    margin-bottom: 0;
+}
+.mainWrapper h2 {
+    margin-bottom: 15px;
+}
+.videoWrapper {
+    margin-bottom: 15px;
+}
+}
+
+form fieldset .form-group .control-label {display: none;}
+
+form fieldset .form-group input.form-control {
+    padding-left: 40px;
+    height: 40px;
+    background-image: url(../images/form_icons.svg);
+    /*color: red;*/
+    background-size: 40px 480px;
+    background-repeat: no-repeat;
+}
+
+form fieldset .form-group #countrycode {
+    left: 40px;
+}
+
+#registration_firstname {
+    background-position: 0px 0px;
+}
+#registration_firstname:focus {
+    background-position: 0px -240px;
+}
+#registration_lastname {
+    background-position: 0px -40px;
+}
+#registration_lastname:focus {
+    background-position: 0px -280px;
+}
+#registration_email {
+    background-position: 0px -160px;
+}
+#registration_email:focus {
+    background-position: 0px -400px;
+}
+#phone {
+    background-position: 0px -120px;
+}
+#phone:focus {
+    background-position: 0px -360px;
+}
+#registration_pass {
+    background-position: 0px -200px;
+}
+#registration_pass:focus {
+    background-position: 0px -440px;
+}

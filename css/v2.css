@@ -1,0 +1,34 @@
+.formWrapper h2 {
+    margin: 0 0 10px;
+    color: #60DDC3;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+@media (min-width:480px) {
+    form fieldset .form-group .btn {
+        min-height: 70px;
+        font-size: 2em;
+        line-height: 1.2;
+        height: auto;
+    }
+}
+
+@media (max-width:479px) {
+    .formWrapper form fieldset .form-group .btn.btn-success {
+        font-size: 1.5em;
+        min-height: 50px;
+        line-height: 1.2;
+        height: auto;
+    }
+    .mainWrapper h1.hidden-lg {
+        text-align: center;
+        font-size: 2em;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
+
+form fieldset .form-group .btn strong {
+   font-size: 1.25em;
+}

@@ -1,0 +1,81 @@
+.testerBanner {
+    padding-right: 30px;
+    background-image: none;
+}
+
+@media (max-width: 479px) {
+div.testerBanner {
+    background-image: none;
+    padding-bottom: 30px;
+    }
+}
+
+.competitionBanner .img-responsive {
+    top: 25px;
+}
+
+body {
+    background-image: url(../images/de_qualitat.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+
+@media (min-width: 1500px) {
+    body {
+        background-size: 150px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1190px) {
+    .mainWrapper .logoImage {
+        margin-left: 80px;
+    }
+    .mainWrapper h1.hidden-lg {
+        margin-left: 80px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+    .mainWrapper .logoImage {
+        margin-left: 80px;
+    }
+    .mainWrapper h1.hidden-lg {
+        margin-left: 80px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    body { 
+    background-size: 80px;
+    }
+    .mainWrapper .logoImage {
+        margin-left: 70px;
+    }
+    .mainWrapper h1.hidden-lg {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 479px) {
+    body { 
+    background-size: 60px;
+    }
+    .mainWrapper h1.hidden-lg {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media 	only screen and (min-device-pixel-ratio: 2) and (orientation: portrait),
+only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait),
+only screen and (min-resolution: 2dppx) and (orientation: portrait),
+
+only screen and (min-device-pixel-ratio: 2) and (max-height:1200px) and (orientation: landscape),
+only screen and (-webkit-min-device-pixel-ratio: 2) and (max-height:1200px) and (orientation: landscape),
+only screen and (min-resolution: 2dppx) and (max-height:1200px) and (orientation: landscape){
+
+    .anticlicker{
+        display:none;
+    }
+
+}
